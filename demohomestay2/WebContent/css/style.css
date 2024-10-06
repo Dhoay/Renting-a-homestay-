@@ -1,0 +1,262 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+  min-height: 100%;
+}
+
+center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #800000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#hnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #800000;
+    color: #fff; 
+    padding: 10px;
+    z-index: 1000; 
+}
+
+#hnav a {
+    text-decoration: none; /* Removes the underline */
+    color: #fff;
+    font-weight: bold;
+}
+
+#hnav a:hover {
+    color: #ffcc00;
+}
+
+
+#logo {
+    font-size: 24px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    position: relative;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.menu a:hover {
+    color: #ffcc00;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #800000;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    margin: 0;
+}
+
+.submenu a {
+    padding: 10px;
+}
+
+.welcome-message {
+    text-align: right;
+    font-size: 18px; 
+    background-color: #800000; 
+    color: white; 
+    padding: 10px;
+}
+
+#banner{
+	max-width: 100%;
+}
+.banner{
+	width: 100%;
+	z-index: 1;
+}
+.banner2{
+	z-index: 2;
+	position: relative;
+	margin-top: -45%;
+	color: #800000;
+	text-align: center;
+}
+.banner2 p {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0; 
+}
+.bookroom{
+	z-index: 2;
+	position: relative;
+	margin-top: -45%;
+	color: #800000;
+	text-align: center;
+}
+.bookroom p {
+	font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+        }
+.success-message{
+	z-index: 2;
+	position: relative;
+	margin-top: -45%;
+	color: #ffffff;
+	text-align: center;
+}
+.success-message p{
+	font-weight: bold;
+    font-size: 24px; 
+    margin: 0; 
+    background-color: #800000; 
+}
+h2 {
+    background-color: #800000; 
+    color: #fff; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+.homestay {
+    padding: 350px 0;
+}
+
+.homestay form {
+    margin-bottom: 60px; 
+}
+.homestay-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.homestay-item {
+	text-align: left;
+    width: 30%;
+    margin-bottom: 50px; 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.homestay-item img {
+    width: 100%;
+    height: auto;
+}
+.homestay-item:hover {
+    border-color: #ffcc00; 
+}
+.homestay-name {
+	text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ff0000;
+    background-color: #ffcc00;
+}
+.gia {
+            font-weight: bold; 
+            color: #ff0000;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+button {
+    background-color: #800000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+.center-button {
+        text-align: center;
+    }
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #800000;
+    color: #fff;
+}
+
+#extend-f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footnav3 {
+    text-align: center;
+}
+
+.footnav3 h3 {
+    color: #fff;
+}
+
+.footnav3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footnav3 li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footnav3 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footnav3 a:hover {
+    color: #ffcc00;
+}
+
+#root-f {
+    text-align: center;
+    padding: 10px;
+    background-color: #800000;
+}
+
+#root-f h4 {
+    color: #fff;
+    margin: 0;
+}
